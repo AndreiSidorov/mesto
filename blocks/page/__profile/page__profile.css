@@ -1,0 +1,21 @@
+.page__profile {
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  max-width: 880px;
+}
+
+@media screen and (max-width: 910px) {
+  .page__profile {
+    margin-left: calc(19px + (40 - 19) * ((100vw - 320px) / (910 - 320)));
+    margin-right: calc(19px + (40 - 19) * ((100vw - 320px) / (910 - 320)));
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .page__profile {
+    padding-top: 42px;
+    padding-bottom: 36px;
+  }
+}
