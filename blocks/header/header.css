@@ -2,4 +2,20 @@
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
   box-sizing: content-box;
   max-width: 880px;
+  padding-top: 45px;
+  padding-bottom: 41px;
+}
+
+@media screen and (max-width: 910px) {
+  .header {
+    padding-left: calc(27px + (40 - 27) * ((100vw - 320px) / (910 - 320)));
+    padding-right: calc(27px + (40 - 27) * ((100vw - 320px) / (910 - 320)));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding-top: 28px;
+    padding-bottom: 31.6px;
+  }
 }

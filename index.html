@@ -21,7 +21,7 @@
         <div class="profile__info">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
           <button class="profile__edit-button" type="button" aria-label="Редактировать профиль"></button>
-          <h2 class="profile__profession">Исследователь океана</h2>
+          <p class="profile__profession">Исследователь океана</p>
         </div>
       </div>
       <button class="profile__add-button" type="button" aria-label="Добавить карточку"></button>
@@ -32,42 +32,42 @@
         <img class="card__photo" src="./images/Elbrus.png" alt="гора Эльбрус на закате">
         <div class="card__container">
           <h2 class="card__name">Эльбрус</h2>
-          <button class="card__button-like card__button-like_active"></button>
+          <button class="card__button-like" type="button" aria-label="Кнопка в форме сердца"></button>
         </div>
       </article>
       <article class="card">
         <img class="card__photo" src="./images/Dombai.png" alt="Домбай, горы и лесной массив">
         <div class="card__container">
           <h2 class="card__name">Домбай</h2>
-          <button class="card__button-like card__button-like_active"></button>
+          <button class="card__button-like" type="button" aria-label="Кнопка в форме сердца"></button>
         </div>
       </article>
       <article class="card">
         <img class="card__photo" src="./images/Dagestan.jpg" alt="Cулакский каньон, Дагестан">
         <div class="card__container">
           <h2 class="card__name">Cулакский каньон</h2>
-          <button class="card__button-like card__button-like_active"></button>
+          <button class="card__button-like" type="button" aria-label="Кнопка в форме сердца"></button>
         </div>
       </article>
       <article class="card">
         <img class="card__photo" src="./images/Ingushetia.jpg" alt="Ингушетия старая крепость-Вовнушки">
         <div class="card__container">
           <h2 class="card__name">Ингушетия</h2>
-          <button class="card__button-like card__button-like_active"></button>
+          <button class="card__button-like" type="button" aria-label="Кнопка в форме сердца"></button>
         </div>
       </article>
       <article class="card">
         <img class="card__photo" src="./images/Karachaevsk.png" alt="Карачаевск, старая храм, Сентинский храм">
         <div class="card__container">
           <h2 class="card__name">Карачаевск</h2>
-          <button class="card__button-like card__button-like_active"></button>
+          <button class="card__button-like" type="button" aria-label="Кнопка в форме сердца"></button>
         </div>
       </article>
       <article class="card">
         <img class="card__photo" src="./images/Karelia.jpg" alt="Карелия, заснеженный утёс">
         <div class="card__container">
           <h2 class="card__name">Карелия</h2>
-          <button class="card__button-like card__button-like_active"></button>
+          <button class="card__button-like" type="button" aria-label="Кнопка в форме сердца"></button>
         </div>
       </article>
     </section>
@@ -79,11 +79,11 @@
 <!-- Popup -->
   <div class="popup">
     <div class="popup__container">
-      <button class="popup__close-button"></button>
+      <button class="popup__close-button" type="button" aria-label="Кнопка-закрыть форму"></button>
       <h2 class="popup__edit-title">Редактировать профиль</h2>
-      <form class="popup__form-edit" name="edit-form" method="post">
-        <input class="popup__edit-input popup__edit-input_form_name" type="text" name="profile_name" placeholder="Ваше имя" value="Жак-Ив Кусто">
-        <input class="popup__edit-input popup__edit-input_form_profession" type="text" name="profile_about-me" placeholder="О себе" value="Исследователь океана">
+      <form class="popup__form-edit" name="editForm" method="post">
+        <input class="popup__edit-input popup__edit-input_form_name" type="text" name="profileName" placeholder="Ваше имя" value="Жак-Ив Кусто">
+        <input class="popup__edit-input popup__edit-input_form_profession" type="text" name="profileAboutMe" placeholder="О себе" value="Исследователь океана">
         <button class="popup__save-button" type="submit">Сохранить</button>
       </form>
     </div>

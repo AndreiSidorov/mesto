@@ -3,7 +3,7 @@
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 7.5px 7.5px;
+  background-size: 10px 10px;
   box-sizing: border-box;
   border: 1px solid #fff;
   margin: 0;
@@ -23,5 +23,6 @@
   .profile__edit-button {
     width: 18px;
     height: 18px;
+    background-size: 7.5px 7.5px;
   }
 }
