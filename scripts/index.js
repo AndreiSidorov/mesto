@@ -1,16 +1,14 @@
 // поиск элементов
-const popup = document.querySelector ('.popup');
+const  popup = document.querySelector ('.popup');
 const  profileEditButton = document.querySelector ('.profile__edit-button')
 const  popupCloseButttn = document.querySelector ('.popup__close-button');
-const  popupInputName = document.querySelector ('.popup__edit-input_name');
-const  popupInputProfession = document.querySelector ('.popup__edit-input_profession');
-const  popupEditInput = document.querySelector ('.popup__edit-input');
-const  popupSaveButton = document.querySelector ('.popup__save-button');
+const  popupInputName = document.querySelector ('.popup__edit-input_form_name');
+const  popupInputProfession = document.querySelector ('.popup__edit-input_form_profession');
 const  profileName = document.querySelector ('.profile__name');
 const  profileProfession = document.querySelector ('.profile__profession');
+const  popupFormEdit = document.querySelector ('.popup__form-edit')
 
 // открытие, закрытие окна формы
-closePopup();
 function openPopup() {
   popup.classList.add('popup_opened');
   popupInputName.value = profileName.textContent;
@@ -31,7 +29,7 @@ function handleFormSubmit(evt) {
 // реакция на нажатие кнопки
 profileEditButton.addEventListener('click', openPopup);
 popupCloseButttn.addEventListener('click', closePopup);
-popupSaveButton.addEventListener('click', handleFormSubmit);
+popupFormEdit.addEventListener('submit', handleFormSubmit);
 
 
 

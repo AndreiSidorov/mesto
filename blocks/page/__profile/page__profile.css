@@ -1,9 +1,7 @@
 .page__profile {
-  box-sizing: content-box;
   margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 50px;
-  max-width: 880px;
 }
 
 @media screen and (max-width: 910px) {

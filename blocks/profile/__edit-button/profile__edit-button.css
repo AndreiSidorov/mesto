@@ -1,19 +1,21 @@
 .profile__edit-button {
-  background: url(../../../images/Vector\ 2.png);
+  background: url(../../../images/Vector2.svg);
+  background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 7.5px 7.5px;
   box-sizing: border-box;
-  border: solid #fff 1px;
+  border: 1px solid #fff;
   margin: 0;
   width: 24px;
   height: 24px;
   padding: 0;
   transition: .3s ease-in-out;
+  cursor: pointer;
 }
 
 .profile__edit-button:hover {
   opacity: .6;
-  cursor: pointer;
 }
 
 

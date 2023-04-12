@@ -1,4 +1,5 @@
-.elements__name {
+.card__name {
+  max-width: 223px;
   margin: 0;
   font-weight: 900;
   font-size: 24px;
